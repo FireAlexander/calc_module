@@ -1,0 +1,22 @@
+name: Calc Module
+description: Test calculator
+package: Custom
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  -drupal:link
+  -drupal:views
+  -paragraphs:paragraphs
+  -webform:webform (>=8.x-5.x)
+
+test_dependencies:
+  -drupal:image
+
+configure: calc.settings
+
+php: 7.4
+
+files[]: Form/ResultForm.php

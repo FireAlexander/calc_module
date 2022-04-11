@@ -1,0 +1,14 @@
+<?php
+/**namespace Drupal\calc\Calc;
+
+function calc_preprocess_page(&$variables){
+    $calc = new Calc($operand1, $operand2, new $classname() );
+    $text = $calc->result();
+    debug($text);
+} **/
+
+/**
+ * Implements hook_form_alter().
+ */
+//function calc_form_alter(&$from,)
+

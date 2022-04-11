@@ -1,0 +1,15 @@
+type: calc
+name: Calc
+description: 'Test calculator mytype'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en
+dependencies:
+  module:
+    - calc
+  enforced:
+    module:
+      - calc

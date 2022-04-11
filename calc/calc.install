@@ -1,0 +1,13 @@
+<?php
+
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function calc_install() {
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array(
+    'generate calc' => TRUE,
+  ));
+}

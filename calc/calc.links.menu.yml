@@ -1,0 +1,6 @@
+calc.link:
+  title: 'Calculator'
+  description: 'Calculator menu'
+  menu_name: main
+  route_name: result_form.form
+  weight: 100

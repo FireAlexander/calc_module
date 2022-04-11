@@ -1,0 +1,14 @@
+{
+    "name": "drupal/calc",
+    "description": "Test calculator",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "FireAlexander",
+            "email": "alexander.v@firebirdtours.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

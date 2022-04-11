@@ -1,0 +1,5 @@
+calc.admin.config:
+  title: 'Calc module'
+  base_route_name: calc.admin.config
+  names:
+    - calc.settings
