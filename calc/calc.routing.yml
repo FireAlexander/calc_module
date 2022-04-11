@@ -1,7 +1,6 @@
 result_form.form:
   path: '/calc'
   defaults:
-    #_controller: '\Drupal\calc\Controller\CalcController::content'
     _title: 'Calc page'
     _form: 'Drupal\calc\Form\ResultForm'
   requirements:
